@@ -1,0 +1,34 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AmirhosseinShokri
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("are you married ?(yes/no)");
+            string married = Console.ReadLine();
+            switch (married)
+            {
+                case "yes":
+                    Console.Write("Do you have children?(yes/no)");
+                    string children = Console.ReadLine();
+                    if (children == "yes")
+                    {
+                        Console.Write("Do you have more than two children?(yes/no)");
+                        string childrenn = Console.ReadLine();
+
+                    }
+                    break;
+                case "no":
+                    Console.Write("Do you have an end -of service card??(yes/no)");
+                    string card = Console.ReadLine();
+                    break;
+            }
+        }
+    }
+}
